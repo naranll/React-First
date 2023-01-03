@@ -1,0 +1,29 @@
+#left {
+  background-color: gainsboro;
+  color: black;
+}  
+
+#left a {
+  text-decoration: none;
+  color: black;
+}
+
+.sideMenu {
+  margin: 0;
+  padding: 30px 2px 20px;
+  width: 160px;
+  position: sticky;
+  top: 60px
+}
+
+#left ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.options {
+  padding-left: 10px;
+}
+
+
+
