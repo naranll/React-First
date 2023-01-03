@@ -1,6 +1,5 @@
 #left {
   background-color: gainsboro;
-  color: black;
 }  
 
 #left a {
@@ -13,7 +12,8 @@
   padding: 30px 2px 20px;
   width: 160px;
   position: sticky;
-  top: 60px
+  top: 60px;
+  color: black;
 }
 
 #left ul li {

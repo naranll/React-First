@@ -9,7 +9,7 @@ export default function Header() {
         <a href="#" >Products</a>
         <a href="#" >For Teams</a>
         <form>
-            <input type="text" placeholder="Search..." name="search"></input>
+            <input type="text" placeholder="Search..." name="search" id="searchBar"></input>
         </form>
         <button>Log In</button>
         <button>Sign Up</button>

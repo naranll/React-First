@@ -23,3 +23,8 @@ header {
 header a{
     text-decoration: none;
 }
+
+#searchBar {
+    width: 500px;
+    padding: 8px;
+}
