@@ -1,7 +1,7 @@
-import "../stacktyles/stackHeader.css";
+import "../style/stackHeader.css";
 
 export default function Header() {
-    return <header>
+    return <div className="header">
         <div id="myLogo">
             <img src="./Stack_Overflow-Logo.wine.svg" alt="stack logo"/>
         </div>
@@ -13,6 +13,6 @@ export default function Header() {
         </form>
         <button>Log In</button>
         <button>Sign Up</button>
-    </header>
+    </div>
 
 }

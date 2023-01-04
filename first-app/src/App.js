@@ -1,6 +1,6 @@
 import './App.css';
-import Header from './stacknents/Header'
-import Body from './stacknents/Body';
+import Header from './stackOverflow/components/Header'
+import Body from './stackOverflow/components/Body';
 
 
 function App() {

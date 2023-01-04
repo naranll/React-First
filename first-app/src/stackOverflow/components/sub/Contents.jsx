@@ -1,9 +1,9 @@
 import Center from './Center';
 import RightBar from './RightBar';
-import "../stacktyles/Content.css";
+import "/Users/morning/Desktop/React-projects/first-app/src/stackOverflow/style/Content.css";
 
 export default function Content(){
-    return <div id="content">
+    return <div id="content" className="d-lg-flex">
     <Center />
     <RightBar />
     </div>
