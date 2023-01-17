@@ -1,33 +1,33 @@
-import "/Users/morning/Desktop/React-projects/first-app/src/stackOverflow/style/RightBar.css";
+import "../../style/RightBar.css";
 
-const blogPosts = [
-  {
-    id: 1,
-    type: "overflow",
-    news: "Remote work is killing big offices. Cities must change to survive",
-  },
-  {
-    id: 2,
-    type: "featured",
-    news: "Temporary policy: GPT is banned",
-  },
-];
+// const blogPosts = [
+//   {
+//     id: 1,
+//     type: "overflow",
+//     news: "Remote work is killing big offices. Cities must change to survive",
+//   },
+//   {
+//     id: 2,
+//     type: "featured",
+//     news: "Temporary policy: GPT is banned",
+//   },
+// ];
 
 export default function RightBar() {
   let blogNews = [];
-  let featuredNews = [];
-  function filterPosts() {
-    let postType = blogPosts.map((post) => {
-      if (post.type == "featured") {
-        blogNews.push(post.news);
+  // let featuredNews = [];
+  // function filterPosts() {
+  //   let postType = blogPosts.map((post) => {
+  //     if (post.type === "featured") {
+  //       blogNews.push(post.news);
         
-      } else {
-        featuredNews.push(post.news);
-      }
-      console.log(blogNews);
-      console.log(featuredNews);
-    });
-  }
+  //     } else {
+  //       featuredNews.push(post.news);
+  //     }
+  //     console.log(blogNews);
+  //     console.log(featuredNews);
+  //   });
+  // }
   return (
     <aside>
       <h4>Overflow Blog</h4>

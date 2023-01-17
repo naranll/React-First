@@ -1,4 +1,4 @@
-import "/Users/morning/Desktop/React-projects/first-app/src/stackOverflow/style/singleResult.css"
+import "../../style/singleResult.css"
 
 export default function SingleResult(props) {
     console.log("Searcch results: ", props.title);

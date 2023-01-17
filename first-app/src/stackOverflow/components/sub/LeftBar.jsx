@@ -1,4 +1,4 @@
-import "/Users/morning/Desktop/React-projects/first-app/src/stackOverflow/style/LeftBar.css";
+import "../../style/LeftBar.css";
 
 export default function LeftBar() {
     return <div id="left">

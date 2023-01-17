@@ -1,5 +1,5 @@
 import Content from './Contents';
-import "/Users/morning/Desktop/React-projects/first-app/src/stackOverflow/style/Scrollable.css"
+import "../../style/Scrollable.css"
 
 export default function Scrollable(){
     return <div class="scroll">

@@ -1,4 +1,4 @@
-import "/Users/morning/Desktop/React-projects/first-app/src/stackOverflow/style/Center.css";
+import "../../style/Center.css";
 import SingleResult from "./SingleResult";
 
 const results = [
